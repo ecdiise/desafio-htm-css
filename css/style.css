@@ -42,6 +42,7 @@ main {
     font-family: var(--fonte-montserrat);
     font-size: 1.1rem;
     font-weight: 600;
+    color: var(--cor-primaria);
 }
 .header-img {
    position: absolute;
@@ -49,9 +50,56 @@ main {
 }
 
 /* MAIN - INDEX ------------------------------------------------------------------- */
+.container-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5%;
+}
+.container-index a {
+    padding: 1% 0 0 0;
+}
+.container-index p {
+    font-family: var(--fonte-montserrat);
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
 
 /* MAIN - LANÇAMENTO ------------------------------------------------------------------- */
 
 /* MAIN - CONTATO ------------------------------------------------------------------- */
 
 /* FOOTER ------------------------------------------------------------------- */
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+}
+.footer-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5%;
+    gap: 10px;
+}
+.footer-redes-sociais-titulo {
+    font-family: var(--fonte-montserrat);
+    font-size: 0.8rem;
+    font-weight: 450;
+}
+.footer-copyright {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--fonte-montserrat);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-img {
+    position: absolute;
+    right: 20px;
+}
