@@ -1,0 +1,57 @@
+/* FONTE E VARIÁVEIS ------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --fonte-montserrat: "Montserrat", sans-serif;
+    --fonte-roboto: "Roboto", sans-serif;
+    --cor-primaria: #1351d8;
+    --cor-secundaria: #1b357e;
+    --cor-terciaria: #FDFDFF;
+    --cor-hover: #468dde;
+}
+
+/* RESETAR ------------------------------------------------------------------- */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
+/* HEADER ------------------------------------------------------------------- */
+.header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.nav-header {
+    display: flex;
+    gap: 40px;
+}
+.nav-header a {
+    text-decoration: none;
+    font-family: var(--fonte-montserrat);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.header-img {
+   position: absolute;
+   left: 20px;
+}
+
+/* MAIN - INDEX ------------------------------------------------------------------- */
+
+/* MAIN - LANÇAMENTO ------------------------------------------------------------------- */
+
+/* MAIN - CONTATO ------------------------------------------------------------------- */
+
+/* FOOTER ------------------------------------------------------------------- */
